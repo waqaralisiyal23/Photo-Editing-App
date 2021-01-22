@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2C2C2C"
+    tools:context=".ResultActivity">
+
+    <ImageView
+        android:id="@+id/back_button"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_margin="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_home"
+        app:tint="#FFFFFF" />
+
+    <ImageView
+        android:id="@+id/myImageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/back_button"
+        app:layout_constraintVertical_bias="0.151"
+        tools:srcCompat="@tools:sample/avatars" />
+
+<!--    <ImageView-->
+<!--        android:id="@+id/share_button"-->
+<!--        android:layout_width="32dp"-->
+<!--        android:layout_height="32dp"-->
+<!--        android:layout_marginTop="24dp"-->
+<!--        android:background="@drawable/grey_oval"-->
+<!--        android:padding="8dp"-->
+<!--        app:layout_constraintEnd_toStartOf="@+id/facebook_button"-->
+<!--        app:layout_constraintHorizontal_bias="0.5"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/myImageView"-->
+<!--        app:srcCompat="@drawable/ic_share" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/facebook_button"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="24dp"-->
+<!--        app:layout_constraintEnd_toStartOf="@+id/whatsapp_button"-->
+<!--        app:layout_constraintHorizontal_bias="0.5"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/share_button"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/myImageView"-->
+<!--        app:srcCompat="@drawable/ic_facebook" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/whatsapp_button"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="24dp"-->
+<!--        app:layout_constraintEnd_toStartOf="@+id/instagram_button"-->
+<!--        app:layout_constraintHorizontal_bias="0.5"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/facebook_button"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/myImageView"-->
+<!--        app:srcCompat="@drawable/ic_whatsapp" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/instagram_button"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="24dp"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.5"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/whatsapp_button"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/myImageView"-->
+<!--        app:srcCompat="@drawable/ic_instagram" />-->
+</androidx.constraintlayout.widget.ConstraintLayout>
