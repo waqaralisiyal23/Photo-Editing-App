@@ -53,7 +53,7 @@
             android:layout_centerHorizontal="true"
             android:layout_alignParentBottom="true"
             ads:adSize="MEDIUM_RECTANGLE"
-            ads:adUnitId="ca-app-pub-2854521211489219/3731094353">
+            ads:adUnitId="your_ad_unit_id">
         </com.google.android.gms.ads.AdView>
 
     </androidx.cardview.widget.CardView>
