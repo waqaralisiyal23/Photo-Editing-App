@@ -39,7 +39,7 @@ public class ResultActivity extends AppCompatActivity {
         final AdRequest adRequest = new AdRequest.Builder().build();
 
         mInterstitialAd = new InterstitialAd(this);
-        mInterstitialAd.setAdUnitId("ca-app-pub-2854521211489219/4633112486");
+        mInterstitialAd.setAdUnitId("your_ad_unit_id");
         mInterstitialAd.loadAd(adRequest);
 
         mInterstitialAd.setAdListener(new AdListener(){
